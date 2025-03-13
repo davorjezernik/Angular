@@ -1,0 +1,84 @@
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway";
+    background-image: url("./../../../../public/assets/img/jpg-menu/1.\ Desktop@3x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    img {
+        width: 256px;
+        height: 256px;
+    }
+    h2 {
+        font-size: 64px;
+        font-weight: 600;
+        color: #9F0908;
+        display: flex;
+        justify-content: center;
+    }
+    h3 {
+        font-size: 32px;
+        font-weight: 200;
+    }
+    td {
+        font-size: 24px;
+        color: #675E54;;
+    }
+    table {
+        display: flex;   
+        flex-direction: column;
+    }
+}
+
+.menu-setup {
+    display: flex;
+    margin: 64px 0px 64px 0px;
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 128px;
+}
+
+@media only screen and (max-width: 770px) {
+    section {
+        h2 {
+            font-size: 32px;
+        }
+        img {
+            width: 128px;
+            height: 128px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        td {
+            font-size: 16px;
+        }
+    }
+    .menu-text {
+        margin-left: 32px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section {
+        img {
+            width: 96px;
+            height: 96px;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        td {
+            font-size: 16px;
+        }
+    }
+    .menu-text {
+        margin-left: 8px;
+    }
+}
+
+

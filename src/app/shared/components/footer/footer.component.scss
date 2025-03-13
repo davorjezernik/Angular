@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(35,38,41);
+    height: 128px;
+    a {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: "Raleway";
+    }
+}
+
+.footer-setup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items {
+    margin: 40px 40px 0px 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-setup {
+        flex-direction: column;
+    }
+    .footer-items {
+        margin: 24px 24px 0px 24px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+        width: 256px;
+    }
+}
+
